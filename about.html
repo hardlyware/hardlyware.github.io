@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About – HARDlyWARE</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo-square.png" alt="HARDlyWARE logo" class="brand-logo">
+        <span class="brand-text">HARDlyWARE</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+      </nav>
+
+      <div class="header-right">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <span class="theme-icon theme-icon-dark"><i class="fa-solid fa-moon"></i></span>
+          <span class="theme-icon theme-icon-light"><i class="fa-solid fa-sun"></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container narrow">
+        <h1>About HARDlyWARE</h1>
+        <p>
+          HARDlyWARE explores the space between ideas and physical hardware — electronics, 3D prints,
+          robots, and experimental builds that are meant to be taken apart, improved, and learned from.
+        </p>
+        <p>
+          The goal is to document the full journey: from first sketches and breadboards to custom PCBs,
+          enclosures, and working prototypes. Each project aims to be transparent about design decisions,
+          trade-offs, and the messy bits in between.
+        </p>
+        <p>
+          HARDlyWARE exists to share practical, reproducible builds and to encourage more people to
+          design, debug, and ship their own hardware.
+        </p>
+      </div>
+    </section>
+
+    <!-- About image section -->
+    <section class="section">
+      <div class="container">
+        <img src="images/about-image.jpg" alt="HARDlyWARE workspace" style="width: 100%; border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span>© <span id="year"></span> HARDlyWARE</span>
+      </div>
+      <div class="footer-center">
+        <a href="mailto:info@hardlyware.com" class="footer-email">info@hardlyware.com</a>
+      </div>
+      <div class="footer-right">
+        <a href="https://instagram.com/hardlyware" target="_blank" rel="noopener" class="social-btn small">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com/hardlyware" target="_blank" rel="noopener" class="social-btn small">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://github.com/hardlyware" target="_blank" rel="noopener" class="social-btn small">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

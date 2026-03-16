@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example Project – HARDlyWARE</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <img src="../images/logo-square.png" alt="HARDlyWARE logo" class="brand-logo">
+        <span class="brand-text">HARDlyWARE</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../about.html" class="nav-link">About</a>
+        <a href="../contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-right">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <span class="theme-icon theme-icon-dark"><i class="fa-solid fa-moon"></i></span>
+          <span class="theme-icon theme-icon-light"><i class="fa-solid fa-sun"></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="section">
+      <div class="container narrow">
+        <header class="project-header">
+          <h1>Example Project Title</h1>
+          <p class="project-subtitle">Short description of what this project does and why it exists.</p>
+          <div class="project-meta">
+            <span class="project-tag">Robotics</span>
+            <span class="project-meta-item">Microcontroller: STM32</span>
+            <span class="project-meta-item">Status: Working prototype</span>
+          </div>
+          <div class="project-hero-image">
+            <img src="../images/project1-hero.jpg" alt="Example project hero image">
+          </div>
+        </header>
+
+        <section class="project-section">
+          <h2>Overview</h2>
+          <p>
+            High-level explanation of the project: what problem it solves, what it demonstrates, or what
+            you were experimenting with.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <h2>Hardware</h2>
+          <p>
+            Describe the main hardware blocks: microcontroller, sensors, drivers, power, and any custom PCBs.
+          </p>
+          <ul>
+            <li>Custom 4-layer PCB with motor drivers and power regulation</li>
+            <li>3D printed chassis and mounts</li>
+            <li>Battery pack and power distribution</li>
+          </ul>
+          <div class="project-image">
+            <img src="../images/project1-pcb.jpg" alt="PCB photo or render">
+          </div>
+        </section>
+
+        <section class="project-section">
+          <h2>Build log</h2>
+          <p>
+            Use this section to document iterations, failures, and improvements. You can break it into
+            subheadings if needed.
+          </p>
+          <h3>Revision 1</h3>
+          <p>What worked, what didn’t, and what you changed.</p>
+          <h3>Revision 2</h3>
+          <p>Improvements, fixes, and new features.</p>
+        </section>
+
+        <section class="project-section">
+          <h2>Code</h2>
+          <p>
+            Brief explanation of the firmware or software architecture. Link to GitHub if applicable.
+          </p>
+          <p>
+            <a href="https://github.com/your_github/your_repo" target="_blank" rel="noopener" class="highlight-link">
+              View code on GitHub →
+            </a>
+          </p>
+
+          <pre><code class="language-c">
+// Example snippet
+#include &lt;stdio.h&gt;
+
+int main(void) {
+    printf("Hello from HARDlyWARE!\\n");
+    while (1) {
+        // main loop
+    }
+}
+          </code></pre>
+        </section>
+
+        <section class="project-section">
+          <h2>Schematics & files</h2>
+          <p>
+            Link to schematics, PCB files, 3D models, or BOMs. These can live on GitHub, a shared drive,
+            or be embedded as images.
+          </p>
+          <ul>
+            <li><a href="#" class="highlight-link">Schematic PDF</a></li>
+            <li><a href="#" class="highlight-link">PCB Gerbers</a></li>
+            <li><a href="#" class="highlight-link">3D models</a></li>
+          </ul>
+        </section>
+
+        <section class="project-section">
+          <h2>Notes & future work</h2>
+          <p>
+            What you’d like to improve, extend, or revisit in future revisions.
+          </p>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span>© <span id="year"></span> HARDlyWARE</span>
+      </div>
+      <div class="footer-center">
+        <a href="mailto:youremail@example.com" class="footer-email">youremail@example.com</a>
+      </div>
+      <div class="footer-right">
+        <a href="https://instagram.com/your_instagram" target="_blank" rel="noopener" class="social-btn small">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com/@your_youtube" target="_blank" rel="noopener" class="social-btn small">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://github.com/your_github" target="_blank" rel="noopener" class="social-btn small">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
